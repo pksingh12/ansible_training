@@ -1,0 +1,6 @@
+---
+- name: install and start apache
+  hosts: webservers
+  remote_user: pksingh12021992
+  become: yes
+
